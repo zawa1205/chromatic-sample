@@ -29,6 +29,9 @@ devDependencies:
   '@storybook/test':
     specifier: ^7.6.8
     version: 7.6.8
+  chromatic:
+    specifier: ^10.2.2
+    version: 10.2.2
   prop-types:
     specifier: ^15.8.1
     version: 15.8.1
@@ -3886,6 +3889,11 @@ packages:
   /chownr@2.0.0:
     resolution: {integrity: sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==}
     engines: {node: '>=10'}
+    dev: true
+
+  /chromatic@10.2.2:
+    resolution: {integrity: sha512-F0GQnrx5hyT9MbNvA27Ul6UBqX5+XhlU8HUAFgXa7+iKYisNMkroRXWXzvFF0StH9Y0I5hqSdH+A5aKHzmi1Zg==}
+    hasBin: true
     dev: true
 
   /ci-info@3.9.0:
